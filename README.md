@@ -67,6 +67,8 @@ Example:
 <file src="files/cars.txd" download="false" model="411,479,585,511" />
 ```
 
+#
+
 # Events
 
 ### **pOnFileDownloaded** (client)
@@ -78,10 +80,14 @@ Parameters:
 - path:  File's path.
 - model: Model ID. (if specified, nil otherwise)
 
+#
+
 ### **pOnDownloadComplete** (client)
 Called when: every file downloaded successfully inside a resource.
 
 Event's source is: root element of the resource that downloaded file.
+
+#
 
 ### **pOnDownloadFailed** (server)
 Called when: file download failed and player get kicked.
@@ -91,6 +97,7 @@ Event's source is: player who can't download the file.
 Parameters:
 - path: File's path.
 
+#
 
 # Download Priority
 You can set the priority in meta.xml by replace true to a number.
