@@ -1,5 +1,5 @@
 <meta>
-	<info author="!Patrick" name="pDownloader" type="script" version="1.2"/>
+	<info author="!Patrick" name="pDownloader" type="script" version="1.2.1"/>
 
 	<download_priority_group>-99999999999</download_priority_group>
 	<oop>true</oop>
