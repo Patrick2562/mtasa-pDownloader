@@ -1,0 +1,15 @@
+<meta>
+	<info author="!Patrick" name="pDownloader" type="script" version="1.2"/>
+
+	<download_priority_group>-99999999999</download_priority_group>
+	<oop>true</oop>
+
+	<aclrequest>
+		<right name="general.ModifyOtherObjects" access="true"/>
+		<right name="function.kickPlayer"        access="true"/>
+	</aclrequest>
+
+	<script src="_SETTINGS.lua"	type="client"/>
+	<script src="client.lua"	type="client"/>
+	<script src="server.lua"	type="server"/>
+</meta>
