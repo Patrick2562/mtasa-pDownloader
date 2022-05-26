@@ -6,7 +6,7 @@ Video: https://streamable.com/bedf40
 # How to use
 If you want to enable pDownloader for a resource. (this resource called *vehiclemodels* in the examples)
 1) Open *vehiclemodels/meta.xml*.
-2) Add **<pDownloader>true</pDownloader>** tag to enable it.
+2) Add **<pDownloader\>true<\/pDownloader>** tag to enable it.
 3) **(!)** Disable downloading for every file, which you want to download with pDownloader, instead of the default one.
 
 **Example: vehiclemodels/meta.xml**
